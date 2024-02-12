@@ -1,0 +1,32 @@
+body{
+    background: linear-gradient(135deg, rgb(104,178,239) 30%, rgb(43, 118, 180),  rgb(0, 70, 128));
+    background-attachment: fixed;
+}
+h2, h1, h4{
+    text-align: center;
+}
+.p1{
+    text-align: center;
+    margin-top: 20%;
+}
+p{
+    text-align: center;
+}
+
+.users{
+    margin-left: 10%;
+}
+
+.info{
+    margin-top: -24%;
+    margin-left: 50%;
+}
+
+.img_about{
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-bottom: -50%;
+    transform: rotate(20deg);
+    width:100px;
+    height: 100px;
+}

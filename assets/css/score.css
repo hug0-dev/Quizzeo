@@ -1,0 +1,76 @@
+body{
+  background: linear-gradient(135deg, rgb(104,178,239) 30%, rgb(43, 118, 180),  rgb(0, 70, 128));
+  background-attachment: fixed;
+}
+.titre{
+    margin-top: 4%;
+    text-align: center;
+    color: #fff;
+}
+
+/* Liste */
+    table{
+        margin-top: 1%;
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td{
+        padding: 8px;
+        text-align: center;
+        border-bottom: 1px solid #333;
+    }
+
+    th{
+        background-color: #333;
+        color: #fff;
+    }
+
+/* Image */
+    /*Top Score*/
+    .img_high_score{
+        margin-top: -6%;
+        margin-left: 10%;
+        transform: rotate(-20deg);
+        width:100px;
+        height: 100px;
+    }
+    .img_trophee{
+        margin-top: -6%;
+        margin-left: 80%;
+        transform: rotate(20deg);
+        width:100px;
+        height: 100px;
+    }
+
+    /*Score*/
+    .img_score{
+        margin-top: -6%;
+        margin-left: 10%;
+        transform: rotate(-20deg);
+        width:100px;
+        height: 100px;
+    }
+    .img_medaille{
+        margin-top: -6%;
+        margin-left: 80%;
+        transform: rotate(20deg);
+        width:100px;
+        height: 100px;
+    }
+
+/* Bar de progression */
+    progress {
+        width: 70%;
+        height: 10px;
+        border: none;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    progress::-webkit-progress-value {
+        background-color: #3498db;
+        border-radius: 5px;
+    }
+    progress::-moz-progress-bar {
+        background-color: #3498db;
+        border-radius: 5px;
+    }

@@ -1,0 +1,65 @@
+body{
+    background: linear-gradient(135deg, rgb(104,178,239) 30%, rgb(43, 118, 180),  rgb(0, 70, 128));
+    background-attachment: fixed;
+}
+h3{
+    margin-top: 10%;
+    text-align: center;
+    color: #fff;
+}
+
+/*Button */
+    .button3 {
+        width: 100px;
+        padding: 10px 20px;
+        font-size: 16px;
+        background: linear-gradient(135deg, rgb(104,178,239) 30%, rgb(43, 118, 180),  rgb(0, 70, 128));
+        background-attachment: fixed;
+        color: #fff;
+        border: solid;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+        transition: box-shadow 0.3s ease-in-out;
+    }
+    .button3:hover {
+        background: linear-gradient(135deg, rgb(104,178,239) 30%, rgb(43, 118, 180),  rgb(0, 70, 128));
+        background-attachment: fixed;
+        box-shadow: 0 8px 16px rgba(255, 255, 255);
+    }
+
+/* Image */
+    .image1{
+        margin-top: -5%;
+        margin-left: 5%;
+        transform: rotate(-20deg);
+        width:200px;
+        height: 200px;
+    }
+    .image2{
+        margin-top: -10%;
+        margin-left: 85%;
+        transform: rotate(20deg);
+        width:200px;
+        height: 200px;
+    }
+
+/* Grille */
+    .wrapper {
+        display: grid;
+        margin-top: 5%;
+        margin-left: 20%;
+        grid-column-gap: 1px;
+    }
+    .one {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .two {
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .three {
+        grid-column: 3;
+        grid-row: 1;
+    }

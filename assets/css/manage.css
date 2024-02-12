@@ -1,0 +1,75 @@
+body {
+    background: linear-gradient(135deg, rgb(104,178,239) 30%, rgb(43, 118, 180),  rgb(0, 70, 128));
+    background-attachment: fixed;
+}
+
+/* Titre */
+    .titre{
+        margin-top: 3%;
+        text-align: center;
+        color: #fff;
+    }
+
+/* Bouton */
+    button{
+        background-color: #3f83c4;
+        color: #fff;
+        padding: 6px 12px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-align: center;
+        margin: 0 auto;
+    }
+    button:hover{
+        background-color: rgb(21, 119, 199);
+    }
+
+/* Liste */
+    table{
+        width: 100%;
+        margin-top: 1%;
+        border-collapse: collapse;
+    }
+    th, td{
+        padding: 8px;
+        text-align: center;
+        border-bottom: 1px solid #333;
+    }
+    th{
+        background-color: #333;
+        color: #fff;
+    }
+
+/*Image*/
+    /*User*/
+    .img_user{
+        margin-top: -5%;
+        margin-left: 10%;
+        transform: rotate(-20deg);
+        width:100px;
+        height: 100px;
+    }
+    .img_user2{
+        margin-top: -5%;
+        margin-left: 80%;
+        transform: rotate(20deg);
+        width:100px;
+        height: 100px;
+    }
+
+    /*Quiz*/
+    .img_gestion{
+        margin-top: -5%;
+        margin-left: 10%;
+        transform: rotate(-20deg);
+        width:100px;
+        height: 100px;
+    }
+    .img_playQuiz{
+        margin-top: -5%;
+        margin-left: 80%;
+        transform: rotate(20deg);
+        width:100px;
+        height: 100px;
+    }
